@@ -195,4 +195,4 @@ $(".wx_pullLoading").wx_refresh({pullDown:function(initLoading){
 ## 已知问题
 1、 qq浏览器下不能从下拉刷新状态切换到向下滚动的状态。
 ## 联系我
-邮箱：[outlook](ivanwonder@outlook.com)
+邮箱：<ivanwonder@outlook.com>
