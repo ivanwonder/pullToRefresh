@@ -200,3 +200,6 @@ $(".wx_pullLoading").wx_refresh({pullDown:function(initLoading){
 
 ## 联系我
 邮箱：<ivanwonder@outlook.com>
+
+##demo预览
+[点我预览](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ivanwonder/pullToRefresh/master/index.html)
