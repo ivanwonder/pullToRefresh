@@ -1,7 +1,8 @@
 # 下拉刷新
 ## 使用方法
 打开index.html页面，即可体验下拉刷新，其中的index.js为插件源码和使用方法案例。该下拉插件是作为jquery的插件来实现的。
-1、 引入css文件，
+
+1. 引入css文件，
 ```css
 @keyframes myfirst
 {
@@ -181,7 +182,8 @@ transition: transform 0.2s;
     </div>
 </div>
 ```
-2、 引入js文件
+
+2. 引入js文件
 引入js文件后就可以用下面的代码来使用下拉刷新：
 ```js
 $(".wx_pullLoading").wx_refresh({pullDown:function(initLoading){
@@ -193,6 +195,6 @@ $(".wx_pullLoading").wx_refresh({pullDown:function(initLoading){
 ```
 其中pullDown为下拉通知的回调函数，用户可以在里面进行数据获取等操作，当数据处理完之后，调用改回调函数的传参来初始化下拉刷新的样式（相当于刷新完成的通知）。
 ## 已知问题
-1、 qq浏览器下不能从下拉刷新状态切换到向下滚动的状态。
+1. qq浏览器下不能从下拉刷新状态切换到向下滚动的状态。
 ## 联系我
 邮箱：<ivanwonder@outlook.com>
